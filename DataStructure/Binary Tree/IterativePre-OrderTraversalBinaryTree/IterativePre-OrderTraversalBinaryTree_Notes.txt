@@ -1,0 +1,22 @@
+Iterative Pre-Order Traversal Of Binary Tree
+--------------------------------------------
+In iterative way we will use stack data structure which will hold additional information for us.
+So , when we back track to a particular node we can fetch it from the stack easily.And we also 
+know that stack is a LIFO data structure which means the last in first out.So , the node inserted last 
+would be the first one to remove.
+
+In pre-order tree traversal first we process a node and then we process the left of tree and again we 
+process the right of tree.In order to process , first we put the right node to stack then we put left node 
+to stack.This is beacuse when we pop it out will first pop out the left node and then will pop put the right 
+node.In order to do that , we first check the temp.right is equal to null or not.If not null then push temp 
+with data 3 into the stack.After that , we check temp.left is equal to null or not.If not null then push it
+to stack.
+
+As stack is a LIFO data structure , it means the node inserted last would be the first one to be removed and we 
+know in pre-order tree traversal first we visit the node and then  we vist the left of Tree.So , basically , in 
+order to traverse the lefts of tree first we pushed the right node on the stack and then we pushed the left node.
+Therefor , when we pop it out will pop out the node having data as 2.The same process continues by the checking the 
+stack is empty or not.Then , node will poped up and temp will assign to the node having data as 2.
+
+
+We can test same invoice

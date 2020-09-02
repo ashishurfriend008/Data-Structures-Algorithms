@@ -1,0 +1,45 @@
+Process the nodes of binary tree in Pre order Binary Tree traversal
+-------------------------------------------------------------------
+We are applying the pre-order traversal to each and every node recursively.In the algorithm
+the method name is preOrder() and inside this method we are calling preOrder() method left
+and preOrder() method right of tree.So , when we are doing pre-order traversal we are calling 
+this methodi.e.preOrder() recursively.Here we are maintaining the call stack which has a method
+call , line number and the root.
+
+In case of method call , we will keep the track of the method i.e.which is being called
+and also will keep the information of the root which current node is being processed.And
+we will come to know about the line number when we are demostrating the algorithm.
+
+Lets call the preOrder method and pass the root as 9.So , when the execution point comes 
+to preOrder we know that the call stack will now execute the preOrder() method and we are also 
+keeping the track of the root.So , currently root is being pointed by the data as 9.After that ,
+we check the root is equal to null or not.We are considering this condition because this is considered
+as our base case and as we are calling our preOrder() method recursively to need a point that when 
+root is null then we simply return from that method.Currently , root is pointing to 9 , so therefore
+its not equal to null and so the condition in if block comes out to be false.
+
+Note :- First visit the node and then vist the left sub tree and then right sub tree.First visit the 
+node and print the data associated with that node.So , the output is 9.So , we have processed this node.
+Moving ahead , we are calling the preOrder() method to traverse the left of tree for this root.So , the value
+we are passing to this preOrder is root.left which is having data as 2.As we are maintaing the call stack
+when we call this method we keep a track of the line number.So , once its return it back we know that which line
+we will execute this method.Here , we have stored the line number as 6.And , again the same process continues.
+
+If root is equal to null then we have reached our base case and this base case will help us in executing the 
+recursion.As we know that , left has no more nodes to traverse , therefore will simply return from this method.So, 
+when it return , it get removed from call stack.So , now the call stack goes to preOrder() method which was executed 
+just before it.After we process the lefts of tree we will now traverse the rights of tree.So , the line will go to rights
+of tree.
+
+Note:- Once we reach Base Case then simply return out from that method.That method will remove from the call stack and the execution point 
+will reach to a method which call this method.
+
+Once you executed all the statements from the pre-order the current pre-order will remove from the stack and the excution point will go to a 
+method which called this method and the point which we have left is the line number 7.
+
+Finally , we have done with this pre-order and the method will remove from the stack.
+
+The output is 9,2,4,3
+
+ 
+

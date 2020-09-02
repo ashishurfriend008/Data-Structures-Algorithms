@@ -1,0 +1,5 @@
+This technique is used to visit the nodes of binary tree level by level. Root i.e.1 is at level 0 and 2,3 are at level 1 and 4,5,6 are at level 2.
+
+In this traversal technique, we first visit level 0 and then we visit level 1 and then we visit the level 2. The data will be printed in the console like 1,2,3,4,5,6. When we do a level order traversal of a particular level then we actually stores elements of its next level on additional data structure which is nothing but the queue.
+
+Suppose we are visiting node 1, on the queue we put node 2 and node 3, so after visiting node 1 we can pull node 2 and node 3. Similarly, when we visit node 2, we put node 4 and node 5 on the queue. And, when we are visiting node 3, we put node 6 on the queue, so therefore it goes level by level.Additional data structure which we used is the queue because it is a FIFO data structure i.e. the element inserted first which is the first one to be removed.

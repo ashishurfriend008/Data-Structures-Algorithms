@@ -1,0 +1,3 @@
+Each TrieNode consists of one word. If there is end of character for a particular word then boolean property of TrieNode is true. If you are trying to store english word then each TrieNode will actually points to other 26 TrieNodes, so that they can store a particular word. All other values of the array points to null because there are no more words inserted.As this is an array, so 0th index points to a and 25th index points to z.
+
+For a particlar TrieNode has an array which refers to other TrieNode whose size is basically 26 if we are taking the english words.

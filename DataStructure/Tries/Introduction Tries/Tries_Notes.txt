@@ -1,0 +1,1 @@
+The main purpose of this data structure is to retrieve the stored information very fast. In real life application, we stored collection of strings inside the trie and whenever we want to get that string we can retrieve that string very fast.

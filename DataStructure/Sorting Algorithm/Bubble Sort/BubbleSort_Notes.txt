@@ -1,0 +1,7 @@
+We have unsorted array which have some random numbers and if we apply algorithm on random numbers. Usually the algorithm works on different iterations and with each iteration the largest element tends to sink at the end of the array. After that, they are placed at correct position and after every element is placed at particular position then at the end we get sorted array.
+
+How does the algorithm works - It repeatedly compares pair of adjacent elements and swap them if they are in wrong order.So, when the few numbers are given which are unsorted we start with the first two numbers and we compare them whether they are in correct or wrong order. If they are in wrong order we simply swap them and then we move to the next two numbers.
+
+The boolean variable isSwapped will keep the track of the tracking in each iteration whether swap is done or not.The last step we simply check the swap is not done then we come to know that the array is already sorted, so we simply break from the algorithm.
+
+Here, there are two for loops i.e. outer and inner. Basically the outer for loop keep the track of each and every iteration. And the inner for loop will simply help us in performing the comparing with the adjacent elements.The outer for loop is controlling the inner for loop.

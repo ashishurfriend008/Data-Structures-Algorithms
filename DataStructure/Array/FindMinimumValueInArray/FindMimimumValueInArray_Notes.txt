@@ -1,0 +1,1 @@
+Treat the first element as the minimum value of the array. Now, for loop will be provided which starts from index 1 which will go till the last element of the array. Inside the for loop will compare each element of the array with the min value i.e. the first index. Lets suppose find any value which is less than the min value will simply update the min with that particular value.

@@ -1,0 +1,17 @@
+package com.ds.max.priorityqueue;
+
+public class MaxPriorityQueueDemo {
+
+	/**
+	 * @Ashish Ku. Dey
+	 */
+	
+	private Integer[] heap;
+	private int n;
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,17 @@
+Binary Tree 
+-----------
+Tree is an non linear data structure which is used for storing the data.It is made up of nodes and edges without
+having any cycle.Nodes are connected to other nodes through edges but they never form a cycle.Each node in a tree
+can point to n number of nodes in a tree which can be referred by any node.Usually tree is representng the hierarchial 
+structure where the parent node is called as root.So , whenever we represent a tree usually the first node which is the 
+parent of all other node is generally referred as root.Also , the node which is not pointing any other node is called
+as leaf.Node 1 is the parent of 2 , 9 and 3.Node 2 is parent of 4 and 5 and node 4 has no child , so therefore it is called
+as leaf nodes.A binary tree is special kind of children where each node has 0 , 1 or 2 children but not more then that.
+A node can have one children and other children can point to null.Basically , a binary tree is represented by TreeNode.
+TreeNode consists of three things data , left and right.It is a pointer to Left node and pointer to Right node.These pointers 
+are TreeNode itself.A binary tree represent basically through a TreeNode.A TreeNode contains data , pointer to the 
+left TreeNode and pointer to the right TreeNode.Initially the left and right pointers points to null and latter on we make 
+them refer to other TreeNode.
+
+When we initialize a binary tree the root is pointing to null and the root is type of TreeNode.Suppose , we want to insert a temp 
+in the binary tree we simply assign the value of temp to the root.

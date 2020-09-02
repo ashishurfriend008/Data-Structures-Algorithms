@@ -1,0 +1,28 @@
+/*
+ * Queue is a type of linked list where we keep two pointers one is front and another is rear.
+Usually , the front points to the first node and rear points to the last node.
+This linked list follows a certain pattern that is whenever you insert a element you basicaly insert at the end 
+.And whenever you want to delete any element we usually use the front end.It is also called FIFO list i.e.the first
+element inserted is the first one to be deleted.
+
+Queue is a list which follows certain restrictions that is when we want to insert an element we will use rear and whenever
+we want to remove an element we will use the front end.
+
+Queue follows certain restrictions such as we will enter the nodes at one end and exit the nodes at other end.
+So , therefore it forms a FIFO list.Elements inserted at first would be the first to be removed.Initially if the queue is 
+empty then there are no nodes.If the queue is empty front points to null and rear point to null.Now , if we want to insert 
+element into a queue we basically used an nqueue operation and need to insert data as 20.Once the node is inserted the front
+and rear both points to the particular node i.e.20.Front points to the first node and rear points to the last node.So , currently
+queue has only one node because this node i.s. 20 is the first and last node.Lets, suppose we want to insert one more element say
+data as 10.The elements are inserted at one end and we basically used the rear end to insert the element.Now , insert the element 
+rear will point to the node which was last inserted.Moving ahead , lets say we want to insert a node i.e.15 and the rear points to 
+that particular node.Here , queue has three nodes 20 , 10 , 15 where 20 is the first node , therefore it is refered by front node and
+15 is the last node and therefore it is being reffered by rear node.Moreover , if we want to remove an element therefore we used the 
+Dqueue operation.However , there is a basic restriction that the nodes are inserted at one end and exit at other end.So , in order to 
+achieve that what we do whenever we insert an element we insert it in rear end and whenever we remove an element we used the front end.
+So , the node which is reffered by front will be removed first.And once the node is removed then the front will point to the node just 
+after it.Suppose , we again call Dqueue operation , so the front will  point to the node 15.Again , if we call a Dqueue operation then 
+there will be no element in the queue and front , rear both will point to null.
+
+This shows that the node which is inserted first is removed first , so it follows a FIFO structure.
+ */

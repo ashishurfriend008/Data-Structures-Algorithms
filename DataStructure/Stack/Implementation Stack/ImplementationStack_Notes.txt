@@ -1,0 +1,5 @@
+>> top node is used to inert and remove elements from the Stack.
+
+>> Instance variable length which represents the size of the Stack.
+
+>> Suppose, we add an element having data as 10, so will call the push() method and add data into it.

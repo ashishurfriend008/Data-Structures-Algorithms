@@ -1,0 +1,9 @@
+In Order Traversal Binary Tree
+------------------------------
+In case of in order traversal of binary tree , we start with the root and root is pointing to node 1 .Basically , before 
+processing the node 1 first we traverse lefts of tree and after we process complete lefts of tree we then visit this node 
+and after visiting this node we go to its rights of tree.When we go to lefts of tree we encounter node 2 and before processing the node we traverse its lefts of tree and then we process the node and again we process the rights of tree.The same carries on.
+
+After the left nodes processed , the call return back to the node 1 and from the node 1 prospective we have completely traversed the lefts of tree now.Then we visit the node 1 and then processed the rights of tree.
+
+In the algorithm of in order traversal we call inOrder() method inside the inOrder() method therefore these calls are recursive in nature.In order to understand this recursion , we are using this call stack where we are keeping the information for current executing method and we are also keeping the track of the root node which is getting executed in the particular method call.We are also keeping the track of the line number whose significance can be seen during the demonstration of the algorithm.

@@ -1,0 +1,9 @@
+Binary Search is a divide and conqure algorithm.Here, numbers are sorted in asscending order.If the array sorted then instead of doing linear search go for binary search.
+
+In case of binary search, we can repeatedly divide an array into half and with each division we know that we are dividing the array into two halfs.So, we usually compare the element we want to search with the middle element and the element we want to search is less then the middle element then we can ignore the other half and we can search in the first half.And, the element we want to search is greater then the middle element then we can ignore the first half and search in the last half. 
+
+As the array is sorted and we are applying binary search over it, so we are using while loop and inside this while loop each iteration of array we divide the array into two halfs and we will search for the key 65. We know that key 65 is greater than middle value, therefore, we know that key 65 somewhere in the last half. So, we can ignore the first half and we can directly search into the last half. So, this how this algorithm works. We divide the array using this middle element and we compare with the middle value and the value is greater than the middle value we search in the last half and if it less than the middle value we search in the last half.
+
+Time complexity of binarySearch method is O(log n)
+
+Space complexity of binarySearch method is O(1) 

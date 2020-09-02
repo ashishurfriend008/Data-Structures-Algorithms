@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.ds.array.check.string.palindrome.StringPalindrome.java&apos; to &apos;StringPalindromeDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;Array&apos;&#x0D;&#x0A;- Original element: &apos;com.ds.array.check.string.palindrome.StringPalindrome.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ds.array.check.string.palindrome.StringPalindromeDemo.java&apos;" description="Rename compilation unit &apos;StringPalindrome.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;com.ds.array.check.string.palindrome{StringPalindrome.java" name="StringPalindromeDemo.java" references="false" stamp="1594468422924" version="1.0"/>
+</session>

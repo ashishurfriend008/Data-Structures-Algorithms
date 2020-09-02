@@ -1,0 +1,4 @@
+Initially, this temp pointed to an array in Heap which added this capacity.That means, array will point to this array i.e. temp in heap. When the resize method get terminated the temp array and everything will be garbage collected. So, when our call will reach to original array than it is at still pointing to original.In this case, we have to return this array from this method and instead of void we have to give return type of integer array.After that, we can see the orginial array is actually pointing to this resized array. In addition to this, instead of assigning the value of temp variable to arr variable we can directly return temp.
+
+
+

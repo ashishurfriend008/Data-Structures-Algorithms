@@ -1,0 +1,5 @@
+In this technique, before visiting the root node 1, first we have to visit its left of tree then we have to visit the node 1 and after visiting the node 1 then we have visit its right of tree.
+
+When we have to start with node 1, we have to go to its left of tree first and there is no way we can visit the node 1 again and therefore we need additional data structure which can hold this node 1, so that once we complete visiting its left of tree then we can pull the node 1 from the additional data structure and can visit it. After visiting node 1, we can go to its right of tree.
+
+The additional data structure here we used is stack which is a LIFO data structure.

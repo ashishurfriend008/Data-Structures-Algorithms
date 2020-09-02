@@ -1,0 +1,1 @@
+We take the refPtr moves to n position. When this refPtr traverse the n position then will move refPtr and mainPtr together till refPtr encounters null. When the refPtr encounters null mainPtr would be the nth position from the end of the list.

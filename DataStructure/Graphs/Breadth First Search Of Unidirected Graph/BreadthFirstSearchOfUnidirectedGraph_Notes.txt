@@ -1,0 +1,11 @@
+Breadth First Search is also known as level order traversal. If we start from 0 it is level 1 and from 0 nodes 1 and 3 are connected so it is level 2. From nodes 3 and 1 there is an edge to 2, so node 2 at level 3. So, after visiting 1 and 3 node 2 will be visited. Then, node 4 is connected to 3, so this is at level 4. And, 4 will be visited after 2. In this algorithm, we use queue data strcuture and this data structure is nothing but FIFO data structure. So, the elements interted first will be first to be removed from the queue and we are using queue because it will help us in traversing the nodes of a graph level by level. We apply the same algorithm while we are traversing the tree. We need to keep the track of nodes which are being visited, so we usually keep the track of nodes into a boolean array.  
+
+
+Sudo Code explanation
+---------------------
+int s - it is the source value which is the starting point from where we actually start our breadth first search.
+Create a boolean array which will keep the track of the visited nodes and the size of the boolean array would be V.
+Create a queue
+Mark the source node as visited by assigning a value true to the visited array at index s.
+Then, simply offer s into the queue
+After that, place a while loop to check whether queue is empty or not. If the queue is not empty then poll an element from the queue. And, provide for loop which will traverse the adjacent nodes to u. In order to get adjacent nodes to u we simply bring the adjacency list at index u. Again, check v is visited or not and if it is not visited then simply mark it as visited by assigning true and offer it to the queue.

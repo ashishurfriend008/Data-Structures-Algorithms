@@ -1,0 +1,13 @@
+package com.ds.max.priorityqueue;
+
+public class MaxPriorityQueueDemo {
+
+	/**
+	 * @Ashish Ku. Dey
+	 */
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,5 @@
+While you process the root node, first you visit left of tree completely and then you visit right of tree completely.This logic is applied over each and every node. 
+
+Suppose, we visit node 2 then we have to visit its left of tree completely and then its right of tree completely. After that, we can visit node 2. So, before visiting node 2, first we have to visit node 4 and then node 5 and then we can visit node 2.
+
+As this algorithm is recursive in nature, postOrder method is internally calling the postOrder method.

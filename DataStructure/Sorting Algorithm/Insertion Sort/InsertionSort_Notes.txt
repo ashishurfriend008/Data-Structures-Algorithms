@@ -1,0 +1,3 @@
+Using the insertion sort algorithm we divide the array into two parts i.e. sorted part and unsorted part. From unsorted part, we take first element and place at its correct position in sorted array. And, all the element which are larger than the first element we simply shift them by one poition and as soon as we encounter any element which is smaller than the first element we simply store it just after that.This process is repeated till unsorted array is not empty.
+
+In insertion sort algorithm, the first element we choose always sorted. Basically, the left side is sorted and right side is unsorted.We will be sorting this array in ascending order. 

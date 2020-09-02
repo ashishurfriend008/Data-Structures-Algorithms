@@ -1,0 +1,22 @@
+>> Dynamic programming is a tool to optimize the algorithm.
+
+>> Using recursion the problem is solved but tends to take more time.
+
+>> Dynamic programming solve a complex problem by breaking it down a smaller sub problems and then solving those sub problems. While solving those sub problems we simply store the result of those sub problems and whenever those sub problems comes into picture we usually extract those stored result and we reused rather than computing it again and again.
+
+>> When we solve any recursive problem we break it down to smaller sub problems and we splved those sub problems and we stored those results.So, whenever those sub problems comes back into picture we usually use the stored result of that sub problem and we avoid recalculating to the solution to that sub problem. By doing that the recursive problem gets optimized.
+
+>> How we can use Dynamic programming to make these recurssion problem highly optimized.
+
+>> Fibonaci series makes the programming less efficient because we are calculating same numbers again and again because of recursion. Here, Dynaic programing says here that what if we store values somewhere and later point of time when we recalculate the fibonaci we could have used those values directly without going into again recalculating those values.
+
+>> By Dynamic programming a complex problem is solved by making into smaller sub problems. We store those sub problems result somewhere and when we get those problems again instead of recalculating again and again we can simply use the stored result and can slove these problem very fast. Dynamic programming basically provides an optimization to the recursion.
+
+>> Dynamic programming problem has some few characteristics
+1 - Optimal Substructure
+2 - Overlapping Subproblems
+
+>> There are two approaches to solve a dynamic programming problem
+1 - Botton Up Approach
+
+>> using dynamic programming we know that this approach is nothing but a tabulation approach where we create the table and store the results of the sub problems and when those sub problems comes again into picture instead of recalculating them we reuse the values stored in the table. We are using this table to store the individual fibonai number.

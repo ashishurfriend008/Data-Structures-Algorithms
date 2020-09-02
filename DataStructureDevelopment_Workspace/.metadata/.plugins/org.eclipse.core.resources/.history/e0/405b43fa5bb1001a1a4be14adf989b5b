@@ -1,0 +1,35 @@
+package com.ds.max.priorityqueue;
+
+public class MaxPriorityQueueDemo {
+
+	/**
+	 * @Ashish Ku. Dey
+	 */
+	
+	//form an integer array - Represent MaxPQ in the form of an array
+	private Integer[] heap;
+	//store the size of max heap
+	private int n;
+	
+	//This constructor will take initial capacity of the heap
+	public MaxPriorityQueueDemo(int capacity){
+		/*
+		 * create an initial array whose size will be 
+		 * capacity+1 because index 0 is kept as empty
+		 */
+		heap = new Integer[capacity + 1]; 
+		//Initialize n to be zero as there are no elements to this heap
+		n = 0;	
+	}
+	
+	//return MaxPQ is empty or not
+	public boolean isEmpty(){
+		return 
+	}
+	
+	public static void main(String[] args) {
+		
+
+	}
+
+}

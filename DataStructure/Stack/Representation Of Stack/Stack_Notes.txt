@@ -1,0 +1,7 @@
+>> Stack is a linear data structure because it can be represented by linked list or an array in which the nodes are adjacent to each other.
+
+>> We used PUSH and POP operations to add and remove elements from the Stack.
+
+>> Stack is basically a one way list. That means, inserting node at the one end and other end is blocked. So, there is one end to PUSH and POP the elements.
+
+>> Stack is a Last In First Out data strcuture i.e.LIFO.

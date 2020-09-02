@@ -1,0 +1,17 @@
+package com.ds.linearsearch;
+
+public class LinearSearchDemo {
+
+	/**
+	 * @Ashish Ku. Dey
+	 */
+	
+	public void linearSearch(){
+		
+	}
+	public static void main(String[] args) {
+		int[] arr = {5, 1, 9, 2, 10, 15, 20};
+
+	}
+
+}

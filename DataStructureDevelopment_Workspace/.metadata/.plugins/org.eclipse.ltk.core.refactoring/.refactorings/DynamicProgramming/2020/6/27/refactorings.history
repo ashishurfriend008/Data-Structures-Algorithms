@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ds.dynamicprogramming.FibonacciNumberDemo&apos; to &apos;FibonacciNumberBUADemo&apos;&#x0D;&#x0A;- Original project: &apos;DynamicProgramming&apos;&#x0D;&#x0A;- Original element: &apos;com.ds.dynamicprogramming.FibonacciNumberDemo&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ds.dynamicprogramming.FibonacciNumberBUADemo&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;FibonacciNumberDemo&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ds.dynamicprogramming{FibonacciNumberDemo.java[FibonacciNumberDemo" matchStrategy="1" name="FibonacciNumberBUADemo" qualified="false" references="true" similarDeclarations="false" stamp="1593542925346" textual="false" version="1.0"/>
+</session>

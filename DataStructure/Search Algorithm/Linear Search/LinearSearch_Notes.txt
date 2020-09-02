@@ -1,0 +1,3 @@
+If we start from left most element of the array and one by one compare x with each and every element of array.If matches to any of the element then we simply return index of array and if x doesn't match with any of the element of the array it simply returns -1.
+
+In order to compare x with each and every element of this array we provide a for loop which basically starts from the left most element and traverse till the last index of the array.
